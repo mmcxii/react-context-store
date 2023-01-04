@@ -1,0 +1,27 @@
+{
+  "name": "react-context-store",
+  "version": "2.0.0",
+  "description": "A library for storing data in React Context with a minimal syntax.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --project tsconfig.json",
+    "build:prod": "tsc --project tsconfig.prod.json"
+  },
+  "keywords": [
+    "react",
+    "context"
+  ],
+  "author": {
+    "name": "Nich Secord",
+    "email": "nich@secord.io",
+    "url": "https://secord.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "18.0.26",
+    "prettier": "2.8.1",
+    "react": "18.2.0",
+    "typescript": "4.9.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "globalSetup": "./jest.setup-global.ts",
+  "projects": [
+    {
+      "preset": "ts-jest",
+      "testEnvironment": "jsdom",
+      "displayName": "browser",
+      "testMatch": ["<rootDir>/src/browser/**/*.test.{ts,tsx}"],
+      "setupFilesAfterEnv": ["<rootDir>/jest.setup-browser.ts"]
+    }
+  ]
+}
